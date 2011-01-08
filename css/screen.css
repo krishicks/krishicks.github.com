@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: #FEFEFE;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -35,15 +35,18 @@ p {
 }
 
 a {
-  color: #00a;
+	color: #505961;
+	text-decoration: underline;
+	outline: 0;
 }
 
-a:hover {
-  color: black;
+a:focus, a:hover {
+	color: #ff3333;
+  background-color:#eee;
 }
 
-a:visited {
-  color: #a0a;
+a:active {
+	opacity: 0.75;
 }
 
 table {
@@ -95,10 +98,6 @@ ul.posts {
   .site .title a {
     color: #a00;
     text-decoration: none;
-  }
-
-  .site .title a:hover {
-    color: black;
   }
 
   .site .title a.extra {
