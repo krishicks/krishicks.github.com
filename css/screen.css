@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-  background-color: #FEFEFE;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  background-color: #fefefe;
+  font: 13.34px helvetica, geneva, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -90,13 +90,13 @@ ul.posts {
 }
 
 .title {
-  color: #a00;
+  font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+  color: #2d2d2d;
   font-weight: bold;
   margin-bottom: 2em;
 }
 
   .site .title a {
-    color: #a00;
     text-decoration: none;
   }
 
