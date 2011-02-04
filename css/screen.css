@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: #fefefe;
-  font: 13.34px helvetica, geneva, sans-serif;
+  font: 13.34px "Times New Roman", Times, serif;
   *font-size: small;
   text-align: center;
 }
@@ -30,50 +30,14 @@ h1 {
   margin-bottom: 1em;
 }
 
-p {
-  margin: 1em 0;
-}
-
 a {
-	color: #505961;
-	text-decoration: underline;
-	outline: 0;
+  color: black;
 }
 
 a:focus, a:hover {
 	color: #ff3333;
   background-color:#eee;
 }
-
-a:active {
-	opacity: 0.75;
-}
-
-table {
-  font-size: inherit;
-  font: 100%;
-}
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-  ul.posts li {
-    line-height: 1.75em;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
 
 /*****************************************************************************/
 /*
@@ -82,116 +46,26 @@ ul.posts {
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
+  width: 25em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.title {
-  font-size: 2em;
-  font-family: Georgia, Times, serif;
-  color: #2d2d2d;
+.site .title {
+  font-size: 1.5em;
+  font-style: italic;
   margin-bottom: 1em;
   padding-top: 3em;
+  text-align: center;
 }
 
-  .site .title a {
-    text-decoration: none;
-  }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
-
-  .site .title a.extra:hover {
-    color: black;
-  }
-
-  .site .meta {
-    color: #aaa;
-  }
-
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
-
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
-
-      .site .footer .contact a {
-        color: #8085C1;
-      }
-
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
-      }
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-#post {
-
-}
-
-  /* standard */
-
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
-
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
-
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
-
-    #post pre code {
-      border: none;
-    }
-
-  /* terminal */
-
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  #post pre.terminal code {
-    background-color: #333;
-  }
-
-#related {
+.site .footer {
+/*  border-top: 1px solid #eee;*/
   margin-top: 2em;
+  overflow: hidden;
 }
 
-  #related h2 {
-    margin-bottom: 1em;
-  }
+.site .footer .contact {
+  
+}
